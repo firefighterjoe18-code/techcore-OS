@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=TechCore Gaming
+Comment=Enter the TechCore Gaming Environment
+Exec=steam %U
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Game;
+StartupNotify=true
