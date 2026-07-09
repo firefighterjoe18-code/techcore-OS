@@ -3,7 +3,7 @@
 set -ouex pipefail
 
 # Copy the contents of system_files/ of the git repo to /
-cp -avf "/ctx/system_files"/. /
+rsync -a --ignore-existing /ctx/system_files/ /
 chmod +x /usr/local/bin/techcore-welcome.sh
 
 ### Install packages
